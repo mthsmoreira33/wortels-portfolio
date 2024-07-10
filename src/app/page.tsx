@@ -1,11 +1,11 @@
 import { Header } from "@/components/Header";
-import { Slider } from "@/components/Slider";
+import { ImageSlider } from "@/components/ImageSlider";
 
 export default function HomePage() {
   return (
     <>
       <Header/>
-      <Slider/>
+      <ImageSlider/>
     </>
   );
 }
